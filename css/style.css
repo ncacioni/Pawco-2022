@@ -471,6 +471,11 @@ hr {
   text-align: center;
 }
 
+.pdf-about {
+  text-decoration: none;
+  color: #fff;
+}
+
 /* Footer */
 
 #footer {
@@ -556,6 +561,14 @@ hr {
 .social-links p a {
   text-decoration: none;
   color: #f33737;
+}
+
+.iframe-contact {
+  text-align: center;
+  width: 100%;
+  vertical-align: middle;
+  height: 100%;
+  display: table-cell;
 }
 
 /* Responsive Design */
@@ -683,6 +696,9 @@ hr {
     opacity: 1;
   }
 
+  .iframe-contact iframe {
+    width: 330px;
+  }
 }
 
 @media screen and (min-width: 701px) {
