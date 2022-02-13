@@ -633,6 +633,10 @@ hr {
     font-size: 12px;
   }
 
+  .service-box {
+    width: 95%;
+  }
+
   #abouthr {
     margin: 5px auto;
   }
